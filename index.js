@@ -11,14 +11,14 @@ function distanceFromHqInFeet(blocks) {
   return distanceFromHqInBlocks(blocks) * 264;
 }
 
-function distanceTravelledInFeet(start, end) {
-  if (start < end)
-    return (end - start) * 264;
+function distanceTravelledInFeet(start, destiation) {
+  if (start < destination)
+    return (destination - start) * 264;
   else
-    return (start - end) * 264;
+    return (start - destination) * 264;
 }
 
-function calculatesFarePrice(start, end) {
+function calculatesFarePrice(start, destination) {
   
   
   

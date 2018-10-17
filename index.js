@@ -12,7 +12,8 @@ function distanceFromHqInFeet(blocks) {
 }
 
 function distanceTravelledInFeet(start, end) {
-  
+  if (start < end)
+    reyutn 
 }
 
   describe('distanceTravelledInFeet()', function() {

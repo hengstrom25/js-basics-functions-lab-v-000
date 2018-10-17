@@ -13,7 +13,7 @@ function distanceFromHqInFeet(blocks) {
 
 function distanceTravelledInFeet(start, end) {
   if (start < end)
-    return (end - start)
+    return (end - start) * 264
 }
 
   describe('distanceTravelledInFeet()', function() {
